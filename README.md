@@ -9,11 +9,11 @@ presumed.
 <h1 align="center">✨ Create Create App</h1>
 <h6>Create your own `create-something` app.</h6>
 <br/>
-<img src="https://raw.githubusercontent.com/uetchy/create-create-app/master/.github/assets/ss1.png" alt="screenshot"/>
+<img src="https://raw.githubusercontent.com/mcqj/create-create-app/master/.github/assets/ss1.png" alt="screenshot"/>
 <br/><br/>
 <a href="https://npmjs.org/package/create-create-app"><img src="https://img.shields.io/npm/v/create-create-app.svg"></a>
 <a href="https://npmjs.org/package/create-create-app"><img src="https://badgen.net/npm/dt/create-create-app"></a>
-<a href="https://github.com/uetchy/create-create-app/actions?workflow=test"><img src="https://github.com/uetchy/create-create-app/workflows/test/badge.svg"/></a>
+<a href="https://github.com/mcqj/create-create-app/actions?workflow=test"><img src="https://github.com/mcqj/create-create-app/workflows/test/badge.svg"/></a>
 </div>
 
 ## Why?
@@ -81,14 +81,13 @@ Let's create `create-greet` package in five steps.
 ### 1. Bootstrap your project
 
 ```shell
-npx create-create-app greet  # simplest route
-npm init create-app greet    # requires npm 6+
-yarn create create-app greet # requires Yarn 0.25+
+npm create @mcqj/create-app greet
+yarn create @mcqjcreate-app greet
 ```
 
 You will then be asked about your project.
 
-![screenshot](https://raw.githubusercontent.com/uetchy/create-create-app/master/.github/assets/ss1.png)
+![screenshot](https://raw.githubusercontent.com/mcqj/create-create-app/master/.github/assets/ss1.png)
 
 ### 2. Add and edit template files
 
@@ -116,7 +115,7 @@ npm init greet ohayo
 yarn create greet ohayo
 ```
 
-![screenshot](https://raw.githubusercontent.com/uetchy/create-create-app/master/.github/assets/ss2.png)
+![screenshot](https://raw.githubusercontent.com/mcqj/create-create-app/master/.github/assets/ss2.png)
 
 ## Template
 
@@ -382,7 +381,7 @@ create('create-greet', {
 
 ## Showcase
 
-List of amazing projects built with `create-create-app`.
+List of amazing projects built with original `create-create-app`.
 
 - [create-create-app](https://github.com/uetchy/create-create-app) - Yes, `create-create-app` uses `create-create-app` itself to generate `create-<app>` template!
 - [create-book](https://github.com/vivliostyle/create-book) - Fast & frictionless book template generator.

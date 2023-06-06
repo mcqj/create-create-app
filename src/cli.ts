@@ -32,7 +32,7 @@ After the build, run ${chalk.cyan('node dist/cli.js <name>')} to test your app.
   text += `
 Read the docs for the further information:
 ${chalk.yellow(
-  'https://github.com/uetchy/create-create-app/blob/master/README.md'
+  'https://github.com/mcqj/create-create-app/blob/master/README.md'
 )}`;
 
   return text;
@@ -46,8 +46,8 @@ create('create-create-app', {
   modifyName: (name) => (name.startsWith('create-') ? name : `create-${name}`),
 
   after: async ({ installNpmPackage }: AfterHookOptions) => {
-    console.log('\nInstalling the latest version of create-create-app');
-    await installNpmPackage('create-create-app');
+    console.log('\nInstalling the latest version of @mcqj/create-create-app');
+    await installNpmPackage('@mcqj/create-create-app');
   },
 
   caveat,
