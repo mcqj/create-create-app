@@ -111,7 +111,7 @@ test('create default project with pnpm', async () => {
   expect(newReadMe).toContain('- {{author}} => Awesome Doe');
   expect(newReadMe).toContain('- {{email}} => awesome@example.com');
   expect(newReadMe).toContain(
-    'See https://github.com/uetchy/create-create-app#template for the further details.'
+    'See https://github.com/mcqj/create-create-app#template for the further details.'
   );
 
   const newPackageJson = readFileSync(
@@ -124,7 +124,7 @@ test('create default project with pnpm', async () => {
     '"author": "Awesome Doe <awesome@example.com>",'
   );
   expect(newPackageJson).toContain('"license": "MIT"');
-  expect(newPackageJson).toContain('"create-create-app": "^');
+  expect(newPackageJson).toContain('"@mcqj/create-create-app": "');
 
   const newSrcCli = readFileSync(`${tmpDir}/create-greet/src/cli.js`, 'utf-8');
   expect(newSrcCli).toContain('#!/usr/bin/env node');
